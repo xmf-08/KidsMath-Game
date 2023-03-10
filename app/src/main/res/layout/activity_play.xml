@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:background="@drawable/mathbacks"
+    android:layout_height="match_parent"
+    tools:context=".PlayActivity">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/aboutc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:translationX="150dp"
+        android:translationY="-170dp">
+
+        <Button
+            android:id="@+id/about"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:text="A"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:translationX="140dp"
+            android:translationY="-195dp"
+            android:backgroundTint="#F34336"/>
+
+    </androidx.cardview.widget.CardView>
+    <TextView
+        android:text="Kid's Math Game"
+        android:textAlignment="center"
+        android:translationY="-60dp"
+        android:textColor="#F34336"
+        android:fontFamily="@font/font"
+        android:textSize="35sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:translationY="-50dp"
+        android:layout_gravity="center"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/addtion"
+            android:src="@drawable/addition"
+            android:layout_margin="15dp"
+            android:layout_width="80dp"
+            android:layout_height="80dp"/>
+        <ImageView
+            android:id="@+id/sub"
+            android:layout_margin="15dp"
+            android:src="@drawable/minus"
+            android:layout_width="80dp"
+            android:layout_height="80dp"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:translationY="-50dp"
+        android:layout_gravity="center"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/multiply"
+            android:src="@drawable/multiply"
+            android:layout_margin="15dp"
+            android:layout_width="80dp"
+            android:layout_height="80dp"/>
+        <ImageView
+            android:id="@+id/division"
+            android:layout_margin="15dp"
+            android:src="@drawable/division"
+            android:layout_width="80dp"
+            android:layout_height="80dp"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="From\nXMF"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:translationY="115dp"
+        android:translationX="-40dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="20sp"/>
+
+</LinearLayout>
